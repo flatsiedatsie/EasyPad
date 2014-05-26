@@ -16,4 +16,11 @@ For every project create a new EasyPad page. You get an unique URL which you can
 
 [Try it](http://www.databay.de/easypad/)
 
+Don't wonder why there is only one PHP-file. That's it. It is everything in this one file.
+No need to enable phar-archives in your server, just put this file on your host
+and create a subfolder "files" beside it. Give write-permission to this folder and put 
+an .htaccess-file inside
 
+    Order Deny,Allow
+    Deny from All
+    
